@@ -14,13 +14,31 @@ Each company runs its **own instance** (its own Supabase project + static fronte
 
 ## Screenshots
 
-| Driver — start | Driver — card | Admin — dashboard |
-|---|---|---|
-| ![Driver start screen](docs/screenshots/driver-start.png) | ![Card editor](docs/screenshots/driver-card.png) | ![Admin dashboard](docs/screenshots/admin-dashboard.png) |
+All screenshots use generated demo data — the people, plates and routes are fictional.
 
-| Admin — drivers on route | Admin — card preview | Admin — vehicle damage (3D) |
-|---|---|---|
-| ![On-route map](docs/screenshots/admin-onroute.png) | ![Card preview](docs/screenshots/admin-card.png) | ![Vehicle damage](docs/screenshots/admin-vehicle.png) |
+<p align="center">
+  <img src="docs/screenshots/admin-dashboard.png" alt="Admin dashboard: fleet KPIs, cards to review, drivers on route, upcoming vehicle deadlines" />
+</p>
+
+### Driver app (mobile)
+
+<p align="center">
+  <img src="docs/screenshots/driver-start.png" alt="Driver start screen with the current trip and quick actions" width="260" />
+  &nbsp;
+  <img src="docs/screenshots/driver-card.png" alt="Settlement card editor with loadings grouped into hauls" width="260" />
+  &nbsp;
+  <img src="docs/screenshots/driver-history.png" alt="History of the driver's previous cards" width="260" />
+</p>
+
+### Admin panel
+
+| Drivers on route — live map | Card preview — route timeline and costs |
+|---|---|
+| ![Drivers on route with the selected driver's route on the map](docs/screenshots/admin-onroute.png) | ![Card preview with route timeline and cost summary](docs/screenshots/admin-card.png) |
+| **Vehicle — deadlines and 3D damage model** | **Yearly statistics** |
+| ![Vehicle page with document deadlines and a 3D model for marking damage](docs/screenshots/admin-vehicle.png) | ![Statistics: monthly mileage chart and per-driver totals](docs/screenshots/admin-stats.png) |
+| **Dark theme** | **Login** |
+| ![Admin dashboard in dark theme](docs/screenshots/dark-dashboard.png) | ![Login screen](docs/screenshots/login.png) |
 
 ## Features
 
